@@ -12,7 +12,7 @@ const Products = ({products=[]}) => {
           console.log(product, 'product')
           const {id , title,price,description,category,image}= product
           return(
-            <div className="lg:w-1/4 md:w-1/2 p-4  space-x-5 w-full shadow-xl border border-opicity-30 mb-4">
+            <div className="lg:w-1/4 md:w-1/2 p-4   w-full shadow-xl border border-opicity-30 mb-4">
         <a className="block relative h-48 rounded overflow-hidden ">
           <img alt={title} className="object-contain object-center w-full h-full block " src={image}/>
         </a>

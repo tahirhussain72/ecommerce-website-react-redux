@@ -10,9 +10,6 @@ const Products = ({products=[]}) => {
     
       {
         products.map((product)=>{
-
-
-          
           console.log(product, 'product')
           const {id , title,price,description,category,image}= product
           return(
@@ -29,6 +26,9 @@ const Products = ({products=[]}) => {
           )
         })
       }
+
+
+      
     </div>
   </div>
 </section>
